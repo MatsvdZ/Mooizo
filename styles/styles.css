@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+    font-size: 20px;
+    max-width: 375px;
+    max-height: 667px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 3.5em;
+    margin-top: 1em;    
+}
+
+.welkomfoto {
+    padding: 1em;
+    margin-top: 0.5em;
+    border-radius: 2em;
+}
+
+main a {
+    display: block;
+    text-decoration: none;
+    background-color: #A48969;
+    color: white;
+    text-align: center;
+    border-radius: 0.5em;
+    margin: 3em 1em 0em 1em;
+    padding: 1.5em 0em 1.5em 0em;
+    box-shadow: -0.4em 0.4em 8px #878787;  
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0.6em;
+    font-size: 50px;
+}
+
+body {
+    background-image: url("../patroonachtergrond.png");
+    background-size: cover;
+}
+
+.icon-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100vw; /* Full-width */
+    background-color: #A48969;
+    overflow: auto; /* Overflow due to float */
+}
+  
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+}
+  
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+  
+.icon-bar a img {
+    max-height: 2em;
+}
+
+.active {
+    background-color: wheat; /* Add an active/current color */
+}
+
+iframe {
+    display: block;
+    max-width: 15em;
+    max-height: 15em;
+    margin: 1em auto 0 auto;
+}
+
+h2 {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+.toptekst {
+    margin: 1em 0 1em 0;
+    font-weight: bold;
+}
+
+.blok {
+    background: #A48969;
+    padding-bottom: 1em;
+    border-radius: 0.5em;
+    max-width: 17em;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+}
