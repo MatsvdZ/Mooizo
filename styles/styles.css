@@ -2,10 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "PT Serif", serif;
+    font-family: serif;
     font-size: 20px;
-    max-width: 375px;
-    max-height: 667px;
 }
 
 .logo {
@@ -76,19 +74,22 @@ body {
 
 iframe {
     display: block;
-    max-width: 15em;
+    max-width: 75vw;
     max-height: 15em;
     margin: 1em auto 0 auto;
+    border-radius: 0.5em;
 }
 
 h2 {
     margin-top: 1em;
     text-align: center;
     font-size: 30px;
+    color: white;
 }
 
 p {
     text-align: center;
+    color: white;
 }
 
 .toptekst {
@@ -100,10 +101,22 @@ p {
     background: #A48969;
     padding-bottom: 1em;
     border-radius: 0.5em;
-    max-width: 17em;
-    margin: 0 auto 0 auto;
+    margin: 0 1em 0 1em;
 }
 
 h1 {
     font-size: 40px;
+    color: white;
 }
+
+footer {
+    margin-top: 5em;
+}
+
+section img {
+    max-height: 2.5em;
+}
+
+
+
+
