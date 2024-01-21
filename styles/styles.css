@@ -24,13 +24,13 @@
 main a {
     display: block;
     text-decoration: none;
-    background-color: #A48969;
-    color: white;
+    background-color: #e7dbcc;
+    color: rgb(0, 0, 0);
     text-align: center;
     border-radius: 0.5em;
-    margin: 3em 1em 0em 1em;
+    margin: 2em 1em 0em 1em;
     padding: 1.5em 0em 1.5em 0em;
-    box-shadow: -0.4em 0.4em 8px #878787;  
+    box-shadow: -0.4em 0.4em 0.5em #232323;  
 }
 
 h1 {
@@ -45,7 +45,7 @@ body {
     background-size: cover;
 }
 
-.icon-bar {
+.navbar {
     position: fixed;
     bottom: 0;
     width: 100vw; /* Full-width */
@@ -53,7 +53,7 @@ body {
     overflow: auto; /* Overflow due to float */
 }
   
-.icon-bar a {
+.navbar a {
     float: left; /* Float links side by side */
     text-align: center; /* Center-align text */
     width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
@@ -62,11 +62,11 @@ body {
     color: white; /* White text color */
 }
   
-.icon-bar a:hover {
+.navbar a:hover {
     background-color: #000; /* Add a hover color */
 }
   
-.icon-bar a img {
+.navbar a img {
     max-height: 2em;
 }
 
@@ -87,6 +87,7 @@ h2 {
     text-align: center;
     font-size: 30px;
     color: white;
+    padding: 0.5em;
 }
 
 p {
@@ -107,7 +108,7 @@ p {
 }
 
 footer {
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 section img {
@@ -115,14 +116,14 @@ section img {
 }
 
 .samenvatten {
-    font-size: 0.7em;
-    margin: 0.5em 1em 0 1em;
+    font-size: 0.8em;
+    margin: 1em 1em 0 1em;
 }
 
 .overfoto {
     display: block;
     max-width: 75vw;
     max-height: 15em;
-    margin: 1em auto 0 auto;
+    margin: 0 auto 0 auto;
     border-radius: 0.5em;
 }
