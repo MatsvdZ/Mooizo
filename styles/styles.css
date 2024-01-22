@@ -8,10 +8,8 @@
 
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 3.5em;
-    margin-top: 1em;    
+    margin: 1em auto 1em auto;    
 }
 
 .welkomfoto {
@@ -35,7 +33,6 @@ main a {
 
 h1 {
     text-align: center;
-    margin-top: 0.6em;
     font-size: 50px;
     color: #000;
 }
@@ -49,7 +46,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100vw; /* Full-width */
-    background-color: #A48969;
+    background-color: #d1b89a;
     overflow: auto; /* Overflow due to float */
 }
   
@@ -93,11 +90,13 @@ h2 {
 p {
     text-align: center;
     color: white;
+    margin-top: 1em;
 }
 
 .toptekst {
     margin: 1em 0 1em 0;
     font-weight: bold;
+    font-size: x-large;
 }
 
 .blok {
@@ -124,6 +123,31 @@ section img {
     display: block;
     max-width: 75vw;
     max-height: 15em;
-    margin: 0 auto 0 auto;
+    margin: 1em auto 0 auto;
     border-radius: 0.5em;
+}
+
+.over {
+    text-align: center;
+    color: white;
+    padding: 1em 1em 0 1em;
+    font-size: 0.8em;
+}
+
+.lijn {
+    background-color: #000000;
+    width: 75%;
+    height: 5px;
+    margin: 0 auto 0 auto;
+}
+
+.lijn2 {
+    background-color: #ffffff;
+    width: 75%;
+    height: 5px;
+    margin: 0 auto 0 auto;
+}
+
+footer p {
+    color: #000;
 }
