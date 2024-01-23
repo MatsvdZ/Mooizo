@@ -44,28 +44,34 @@ body {
 
 /* Navigatie */
 
-.navbar {
+nav {
     position: fixed;
     bottom: 0;
     width: 100vw; 
     background-color: #d1b89a;
     overflow: auto; 
+    
 }
   
-.navbar a {
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
     float: left; 
     text-align: center; 
     width: 25%; 
     padding: 12px 0; 
     transition: all 0.3s ease; 
     color: white; 
+    
 }
   
-.navbar a:hover {
+nav a:hover {
     background-color: #000; 
 }
   
-.navbar a img {
+nav a img {
     max-height: 2em;
 }
 
